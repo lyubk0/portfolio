@@ -3,8 +3,7 @@ import { Metadata } from 'next'
 export const SITE_MANIFEST = {
 	name: 'Vladyslav Liubchenko',
 	short_name: 'Vladyslav Liubchenko',
-	description:
-		'Frontend Developer specializing in React, Next.js, and TypeScript.',
+	description: 'Frontend Developer',
 	url: process.env.NEXT_PUBLIC_BASE_URL as string,
 	author: {
 		name: 'Vladyslav Liubchenko',
