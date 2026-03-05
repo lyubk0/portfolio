@@ -16,6 +16,9 @@ export const METADATA: Metadata = {
 		default: SITE_MANIFEST.name,
 		template: `%s`,
 	},
+	icons: {
+		icon: '/favicon.jpg',
+	},
 	description: SITE_MANIFEST.description,
 	keywords: ['Frontend Developer', 'React', 'Next.js', 'TypeScript', 'Zustand'],
 	authors: [{ name: SITE_MANIFEST.author.name }],
