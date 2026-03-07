@@ -17,7 +17,7 @@ export const ProjectSection = ({ className }: Props) => {
 				rel='noopener noreferrer'
 				href='https://github.com/lyubk0/next-sneakers'
 			>
-				<ProjectCard videoSrc='/next-sneakers-video.mp4' />
+				<ProjectCard videoSrc='/next-sneakers.mp4' />
 			</Link>
 			<Link
 				target='_blank'

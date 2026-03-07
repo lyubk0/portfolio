@@ -13,7 +13,7 @@ export const ProjectCard = ({ videoSrc, className }: Props) => {
 	return (
 		<div className='rounded-2xl bg-secondary p-4'>
 			{!isLoaded && (
-				<div className='rounded-xl bg-muted animate-pulse aspect-video w-full' />
+				<div className='rounded-xl bg-muted animate-pulse h-[268px] w-full' />
 			)}
 			<video
 				className={`rounded-xl ${!isLoaded ? 'hidden' : ''}`}
