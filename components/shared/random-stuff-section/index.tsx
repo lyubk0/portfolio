@@ -46,7 +46,7 @@ export const RandomStuffSection = ({ className }: Props) => {
 										className='size-5 rounded-full inline-block mx-2 animate-spin'
 										style={{ animationDuration: '3s' }}
 									/>
-									<span className='size-1 inline-block bg-white absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 rounded-full' />
+									<span className='size-1 inline-block bg-background absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 rounded-full' />
 								</span>
 							)}
 						</Link>{' '}
