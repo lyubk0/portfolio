@@ -1,14 +1,14 @@
-import { IconSvgElement } from '@hugeicons/react'
 import Link from 'next/link'
+import { ComponentType, SVGProps } from 'react'
 
 interface Props {
 	label: string
 	href: string
-	icon?: IconSvgElement
+	Icon?: ComponentType<SVGProps<SVGSVGElement>>
 	className?: string
 }
 
-export const SocialItem = ({ className, label, href, icon }: Props) => {
+export const SocialItem = ({ className, label, href, Icon }: Props) => {
 	return (
 		<Link
 			target='_blank'
@@ -16,7 +16,7 @@ export const SocialItem = ({ className, label, href, icon }: Props) => {
 			href={href}
 			className={`text-sm flex items-center gap-2 hover:text-foreground cursor-pointer hover:underline underline-offset-4 decoration-2 font-medium text-muted-foreground ${className}`}
 		>
-			{/* {icon && <HugeiconsIcon strokeWidth={2} size={16} icon={icon} />} */}
+			{Icon && <Icon className='w-4 h-4' />}
 			{label}
 		</Link>
 	)

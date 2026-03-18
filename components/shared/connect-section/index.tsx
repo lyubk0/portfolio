@@ -1,22 +1,27 @@
-import { TelegramIcon } from '@hugeicons/core-free-icons'
+import { GithubIcon } from '@/components/ui/social-icons/github-icon'
 import { Fragment } from 'react/jsx-runtime'
+import { LinkedInIcon } from '../../ui/social-icons/linkedin-icon'
+import { TelegramIcon } from '../../ui/social-icons/telegram-icon'
 import { Section } from '../section'
 import { SectionTitle } from '../section-title'
 import { SocialItem } from './social-item'
 
 const SOCIALS = [
-	{ label: 'Telegram', href: 'https://t.me/lyubk0o', icon: TelegramIcon },
+	{ label: 'Telegram', href: 'https://t.me/lyubk0o', Icon: TelegramIcon },
 	{
-		label: 'Mail',
-		href: 'mailto:vladliubchenko.dev@gmail.com',
+		label: 'LinkedIn',
+		href: 'https://www.linkedin.com/in/vlad-liubchenko-0a8325371/',
+		Icon: LinkedInIcon,
 	},
 	{
 		label: 'Github',
 		href: 'https://github.com/lyubk0',
+		Icon: GithubIcon,
 	},
+
 	{
-		label: 'LinkedIn',
-		href: 'https://www.linkedin.com/in/vlad-liubchenko-0a8325371/',
+		label: 'Mail',
+		href: 'mailto:vladliubchenko.dev@gmail.com',
 	},
 ]
 
